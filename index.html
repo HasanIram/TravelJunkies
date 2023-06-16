@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelJunkies</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="font/fonts.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container flex">
+            <a href="index.html" class="site-brand">
+                Travel<span>Junkies</span>
+            </a>
+            
+            <button type="button" id="navbar-show-btn" class="flex">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div id="navbar-collapse">
+                <button type="button" id="navbar-close-btn" class="flex" >
+                    <i class=" fas fa-times"></i>
+                </button>
+                <ul class="navbar-nav">
+                    <li class="nav-items">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="gallery.html" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="blog.html" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="flex">
+        <div class="container">
+            <div class="header-title">
+                <h1>Leave Your Footprints</h1>
+                <p>Traveling can also provide us with a sense of humility and a broader understanding of our place in the world. As Gustave Flaubert noted, "Travel makes one modest. You see what a tiny place you occupy in the world." This realization can be both humbling and empowering. It can help us to appreciate the beauty and diversity of the world, as well as the interconnectedness of all people and cultures</p>
+            </div>
+            <div class="header-form">
+                <h2>Choose Your Travel Location</h2>
+                <form class="flex">
+                    <input type="text" class="form-control" placeholder="Destination name">
+                    <input type="date" class="form-control" placeholder="Date">
+                    <input type="number" class="form-control" placeholder="Price &#8364;">
+                    <input type="submit" class="btn" value="Search">             
+                </form>
+            </div>
+        </div>
+    </header>
+
+    
+    <section id="featured" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">Know about some places before your travel</span>
+                <h2 class="lg-title">Featured places</h2>
+            </div>
+
+            <div class="featured-row">
+                <div class = "featured-item my-2 shadow"> 
+                    <img src="img/Rio-de-Janeiro-Brazil.jfif" alt="Featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class = "fas fa-map-marker-alt"></i>
+                            Rio De Janeiro, Brazil
+                        </span>
+                        <div>
+         
+                           <p class="text">Rio de Janeiro, commonly known as Rio, is a vibrant city in Brazil known for its stunning beaches, lively nightlife, and iconic landmarks such as Christ the Redeemer statue and Sugarloaf Mountain. It is also famous for its annual Carnival celebration, one of the biggest and most colorful festivals in the world.</p>
+                            </div>
+                        </div>
+                </div>
+
+                <div class = "featured-item my-2 shadow"> 
+                    <img src="img/Munich-Germany.jpg" alt="Featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Munich, Germany
+                        </span>
+                        <div>
+                            <p class="text">Munich is the capital and largest city of the German state of Bavaria, known for its rich culture, history, and vibrant beer gardens. It is home to iconic landmarks such as Marienplatz, Nymphenburg Palace, and the famous Oktoberfest celebration.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "featured-item my-2 shadow"> 
+                    <img src="img/North-Bondi-Australia.jpg" alt="Featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                        North-Bondi, Australia
+                        </span>
+                        <div>
+                            <p class="text">North Bondi is a beachside suburb located in the eastern suburbs of Sydney, Australia. It is known for its stunning beach, picturesque coastal walks, and trendy cafes and restaurants.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "featured-item my-2 shadow"> 
+                    <img src="img/Fuvahmulah-Maldives.jfif" alt="Featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Fuvahmulah, Maldives
+                        </span>
+                        <div>
+                            <p class="text">Fuvahmulah is a unique island in the Maldives, as it is the only one with a freshwater lake and is surrounded by shallow waters. It is also home to diverse wildlife, including the endemic Fuvahmulah day gecko and the giant hermit crab.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "featured-item my-2 shadow"> 
+                    <img src="img/Rome-Italy.jpg" alt="Featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Rome, Italy
+                        </span>
+                        <div>
+                            <p class="text">Rome is the capital city of Italy and is renowned for its rich history, art, and architecture, including iconic landmarks such as the Colosseum, Vatican City, and the Pantheon. It is also known for its delicious cuisine, fashion, and lively atmosphere.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "featured-item my-2 shadow"> 
+                    <img src="img/Wat-Arun-Thailand.jpg" alt="Featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Khwaeng Wat Arun, Thailand
+                        </span>
+                        <div>
+                            <p class="text">Wat Arun, also known as the Temple of Dawn, is a Buddhist temple located on the west bank of the Chao Phraya River in Bangkok, Thailand. Its stunning architecture, adorned with colorful glass and Chinese porcelain, is a must-see attraction for visitors to the city</p>
+                        </div>
+                    </div>
+                </div>
+
+            
+
+
+            </div>
+        </div>
+    </section>
+
+    <section id = "services" class = "py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">Know about services that we offer</span>
+                <h2 class="lg-title">Our services</h2>
+            </div>
+
+            <div class="services-row">
+                <div class="services-items">
+                    <span class="services-icon">
+                        <i class="fa fa-hotel"></i>
+                    </span>
+                    <h3>Luxurious Hotels</h3>
+                    <p class="text">Top-notch amenities, services, and facilities to its guests, including spacious and elegantly decorated rooms or suites, fine dining restaurants, high-end spa and fitness centers, personalized concierge services, and often, breathtaking views. It aims to provide an exceptional and indulgent experience to guests, ensuring that every aspect of their stay is comfortable, enjoyable, and memorable.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+
+                <div class="services-items">
+                    <span class="services-icon">
+                        <i class="fa fa-map-marked-alt"></i>
+                    </span>
+                    <h3>Travel Guide</h3>
+                    <p class="text">When staying at hotels, travelers should follow the guidelines provided by the hotel and local authorities, which may include wearing masks in common areas, practicing social distancing, and frequently washing or sanitizing hands. It is also recommended to avoid unnecessary contact with surfaces and to notify hotel staff if feeling unwell or experiencing symptoms of illness.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+
+
+                <div class="services-items">
+                    <span class="services-icon">
+                        <i class="fa fa-money-bill"></i>
+                    </span>
+                    <h3>Suitable Price</h3>
+                    <p class="text">Top-notch amenities, services, and facilities to its guests, including spacious and elegantly decorated rooms or suites, fine dining restaurants, high-end spa and fitness centers, personalized concierge services, and often, breathtaking views. It aims to provide an exceptional and indulgent experience to guests, ensuring that every aspect of their stay is comfortable, enjoyable, and memorable.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id = "testimonials" class= "py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">
+                    What our clients say about us
+                </span>
+                <h2 class="lg-title">testimonials</h2>
+            </div>
+
+            <div class="test-row">
+                <div class="test-item">
+                    <p class="text">Munich is a city with a rich cultural heritage, beautiful architecture, and a vibrant atmosphere that has something to offer for every type of traveler</p>
+                    <div class="test-item-info">
+                        <img src="img/Test-1.jfif" alt="testimonial">
+                        <div>
+                            <h3>Andrew Wilson</h3>
+                            <p class="test">Trip to Munich</p>
+                        </div>
+                    </div>
+                </div>
+
+                    <div class="test-item">
+                        <p class="text">Rome's lively atmosphere and abundance of street markets, cafes, and 
+                            restaurants also make it a great city for exploring and immersing oneself in the local culture</p>
+                        <div class="test-item-info">
+                            <img src="img/Test-2.jfif" alt="testimonial">
+                            <div>
+                                <h3>Alina Watson</h3>
+                                <p class="test">Trip to Rome</p>
+                            </div>
+                        </div>
+                    </div>
+
+                        <div class="test-item">
+                            <p class="text">Maldives is a paradise destination that offers a unique and unforgettable travel experience.</p>
+                            <div class="test-item-info">
+                                <img src="img/Test-3.jfif" alt="testimonial">
+                                <div>
+                                    <h3>Maria Jones</h3>
+                                    <p class="test">Trip to Maldives</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+        <section id="video">
+            <div class="video-wrapper flex">
+                <video loop>
+                    <source src = "img/pexels-videographer-shiyaz-4069480-3840x2160-50fps.mp4" 
+                    type = "video/mp4">
+                </video>
+                <button type = "button" id = "play-btn">
+                    <i class = "fas fa-play"></i>
+                </button>
+            </div>
+        </section>
+
+        <footer class="py-4">
+            <div class="container footer-row">
+                <div class="footer-item">
+                    <a href = "index.html" class = "site-brand">
+                        Travel<span>Junkies</span>
+                    </a>
+                    <p class="text"> Travelling can be a transformative experience that opens our minds and hearts to new possibilities. As David Mitchell said, "Travel far enough, you meet yourself." So, let us embrace the world and all the adventures and growth it has to offer.</p>
+                </div>
+
+                <div class="footer-item">
+                    <h2>Follow us on:</h2>
+                    <ul class = "social-links">
+                        <li>
+                            <a href = "#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href = "#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href = "#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href = "#">
+                                <i class="fab fa-pinterest"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href = "#">
+                                <i class="fab fa-google-plus"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-item">
+                    <h2>Popular Places:</h2>
+                    <ul>
+                        <li><a href="#">Thailand</a></li>
+                        <li><a href="#">Australia</a></li>
+                        <li><a href="#">Germany</a></li>
+                        <li><a href="#">Italy</a></li>
+                        <li><a href="#">Maldives</a></li>
+                    </ul>
+                </div>
+
+                <div class="subscribe-form footer-item">
+                    <h2>Subscribe for Newsletter!</h2>
+                    <form class="flex">
+                        <input type="email" placeholder="Enter Email" class="form-control">
+                        <input type="submit" value="Subscribe" class="btn
+                        ">
+                    </form>
+                </div>
+            </div>
+        </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        let video = document.querySelector('.video-wrapper video');
+        document.getElementById('play-btn').addEventListener('click', 
+        () => {
+            if(video.paused){
+                video.play();
+            } else {
+                video.pause();
+            } });
+    </script>
+    
+</body>
+</html>
